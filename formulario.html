@@ -1,0 +1,52 @@
+<html>
+<head>
+  <title>Sign up</title>
+</head>
+<body style="background: linear-gradient(460deg,rgb(119, 44, 119),black); color: white;">
+ <form id="form_js" id="formulario">
+  <fieldset style="background-color: black">
+    <h1 align="center">Crea una cuenta nueva</h1>
+    
+    <hr size="2" color="gray">   
+    
+    <h2>Información necesaria</h2>
+    <p><u><b>Usuario: <input type="text" name="nombre" id="nombre" required></b></u></p>
+    <p><u>Email: <input type="text" name="email" id="email" required></u></p>
+    <p><u>Contraseña: <input type="password" name="contraseña" id="contraseña" required></u></p>
+    <p><u>Region: </u>
+    <select name="region" id="region">
+      <option value="america">America</option>
+      <option value="africa">Africa</option>
+      <option value="asia">Asia</option>
+      <option value="europa">Europa</option>
+      <option value="Oceania">Oceania</option>
+    </select>
+    </p>
+    
+    <hr size="2" color="gray">
+    
+    <h2>Información opcional</h2>
+    <div>
+    <p>Telefono: <input type="text" name="telefono" maxlength="10"></p>
+    <p>Fecha de nacimiento: <input type="date" name="date_nac"></p>
+    <p><b>Genero</b>
+    <p><input type="radio" name="genero">Femenino
+      <input type="radio" name="genero">Masculino
+      <input type="radio" name="genero">No quiero decirlo
+    </p>
+    </div>
+    
+    <div>
+      <input type="submit" name="guardar" value="guardar">
+      <input type="reset" name="borrar" value="borrar">
+    </div>
+    <br>
+    <div align="right">
+      <a href="formulario2.html"><button type="button" value="botón">siguiente</button></a>
+    </div>
+  </fieldset>
+  </form>
+  <div id="escribir"></div>
+</body>
+
+</html>
